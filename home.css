@@ -1,0 +1,215 @@
+a{
+    text-decoration: none; 
+    color: inherit;   
+}
+body{
+    background-color: #F9FAFB;
+}
+.navbar{
+    background-color: #111827;
+    padding: 15px;
+    display: flex;
+    align-items: center; 
+    border: 1px solid white;
+}
+.btn{
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #F9FAFB;
+    color: #111827;
+    display: flex;
+}
+.btn:hover{
+    border-top: 5px solid green;
+}
+.langue button{
+    background: none;
+    color: white;
+}
+#btn-profile{
+    background-color: #3B82F6;
+}
+#profile{
+    display: block;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 1px solid darkblue;
+}
+#projets{
+    display: none;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    border: 1px solid darkblue;
+}
+#competences{
+    display: none;
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid darkblue;
+}
+#deplomes{
+    display: none;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border: 1px solid darkblue;
+}
+.photo{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#profile h1{
+    margin: 10px 0 5px;
+    font-size: 32px;
+}
+#profile h2 {
+margin: 5px 0;
+font-size: 22px;
+color: #2c5364;
+}
+#profile h3 {
+margin: 8px 0 15px;
+font-size: 18px;
+color: #555;
+}
+#profile p {
+font-size: 15px;
+line-height: 1.6;
+color: #444;
+text-align: left;
+}
+.profile-info {
+margin-top: 20px;
+}
+.profile-info p {
+margin: 6px 0;
+font-weight: 600;
+}
+.all-btn-competances{
+    display: flex;
+    flex-direction: column;
+}
+.all-btn-competances button{
+    padding: 20px;
+    color: darkblue;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 5px;
+}
+.all-btn-competances button:hover{
+    color: red;
+}
+.all-btn-competances button img{
+    margin-left: 10px;
+}
+#hard-skills{
+    display: block;
+}
+#soft-skills{
+    display: none;
+}
+#frontend-skills{
+    display: none;
+}
+#backend-skills{
+    display: none;
+}
+#tools-skills{
+    display: none;
+}
+.skills-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: auto;
+    margin: 50px auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.skills-category ul{
+    list-style: disc inside;
+    margin-left: 40px;
+}
+.skills-category li {
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+}
+.deplome-section{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #EEF2F6;
+}
+.deplome-section h2{
+    color: #1F2937;
+    text-align: center;
+}
+.deplome-section h3{
+    color: #2563EB;
+    text-align: center;
+}
+.deplome-section h4{
+    text-align: center;
+    color: #6B7280;
+}
+.deplome-section span{
+    color: #9CA3AF;
+}
+.projetsbar{
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center; 
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black;  
+}
+.projetsbar button{
+    padding: 10px;
+    background-color: #F9FAFB;
+    margin: 10px;
+    color: #111827;
+    font-size: 18px;
+}
+.projetsbar button:hover{
+    border-top: 5px solid green;
+}
+.container{
+    padding: 25px;
+    display: flex;
+}
+.projet{
+    background-color: #F9FAFB;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+}
+.projet p{
+    font-size: 20px
+}
+#desktop{
+    display: none;
+}
+#experiences{
+    display: none;
+}
+.image{
+    max-width: 400px;
+}
+#btn-web{
+    background-color: #2563EB;
+}

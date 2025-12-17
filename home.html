@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="home.css">
+    <title>benyagoubo</title>
+    <script defer src="home.js"></script> 
+    </head>
+    <body>
+        <div class="navbar">
+                <button id="btn-profile" class="btn" onclick="profile()">Profile</button>
+                <button id="btn-competances" class="btn" onclick="competances()">Competances</button>
+                <button id="btn-deplomes" class="btn" onclick="deplomes()">deplomes</button>
+                <button id="btn-projets" class="btn" onclick="projets()">Projets et experiences</button>
+        </div>
+        <div id="profile"> 
+            <img src="photos/image2.jpg" class="photo" alt="Admin">
+            <h1>BENYAGOUB Oussama </h1>
+            <h2>Ingenieur logiciel</h2>
+            <h3>Specialite : Genie logiciel </h3>
+            <p> Je suis <strong> Oussama Benyagoub</strong>, de Tiaret, Algerie, ne le <strong>10 avril 2000</strong>. 
+                J ai obtenue un Master en <strong>Genie Logiciel</strong>, avec une specialisation en <strong>developpement web</strong> et en developpement d applications de desktop. 
+                J ai de l experience dans la <strong>gestion de bases de donnees</strong> avec <strong>MySQL</strong>.
+                Mon niveau d anglais est <strong>A2</strong>, ce qui me permet de comprendre la langue et de communiquer efficacement.</p>
+         <div class="profile-info">
+            <p><strong>Address:</strong> FNPOS Btms 1 Tiaret, Algeria</p>
+            <p><strong>Phone:</strong> +213 778146500/542945837</p>
+            <p><strong>Github:</strong><a href="https://github.com/benyagoubo" style="color: darkblue;"> oussama benyagoub</a></p>
+            <p><strong>Linkedin:</strong><a href="https://www.linkedin.com/in/benyagoubo/" style="color: darkblue;"> oussama benyagoub</a></p>
+        </div>
+        </div>
+
+  <div id="competences" class="skills-section">
+    <div class="all-btn-competances">
+        <button onclick="hardskills()">Competences techniques<img src="photos/hardskills.png" alt="skills"></button>
+        <button onclick="softskills()">Competences comportementales<img src="photos/softskills.png" alt="soft"></button>
+        <button onclick="frontendskills()">Langage de developpement front-end<img src="photos/frontendskills.png" alt="front"></button>    
+        <button onclick="backendskills()">Langage de developpement back-end<img src="photos/backendskills.png" alt="back"></button>
+        <button onclick="toolsskills()">Outils de l informatique<img src="photos/toolsskills.png" alt="tools"></button>
+    </div>
+    <div id="hard-skills" class="skills-category">
+        <ul>
+            <li>Developpement web</li>
+            <li>Programmation</li>
+            <li>Conception et gestion de bases de donnees</li>
+            <li>Administration reseau</li>
+            <li>Maintenance informatique</li>
+            <li>Programmation orientee objet (POO)</li>
+            <li>Cycle de vie du developpement logiciel (SDLC)</li>
+            <li>Installation et configuration des systemes</li>
+            <li>Gestion de versions</li>
+        </ul>
+    </div>
+    <div id="soft-skills" class="skills-category">
+        <ul>
+            <li>Gestion du temps</li>
+            <li>Resolution de problemes</li>
+            <li>Travail en equipe</li>
+            <li>Communication</li>
+        </ul>
+    </div>
+    <div id="frontend-skills" class="skills-category">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>Conception adaptative(Responsive Design)</li>
+            <li>Manipulation du DOM</li>
+            <li>Principes de base de l UI/UX</li>
+        </ul>
+    </div>
+    <div id="backend-skills" class="skills-category">
+        <ul>
+            <li>Java</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Operations CRUD</li>
+        </ul>
+    </div>
+    <div id="tools-skills" class="skills-category">
+        <ul>
+            <li>Visual Studio Code</li>
+            <li>Eclipse</li>
+            <li>phpMyAdmin</li>
+            <li>Microsoft Office</li>
+            <li>Git & GitHub</li>
+            <li>Figma (niveau de base)</li>
+            <li>Outils d administration Windows</li>
+        </ul>
+    </div>
+    </div>
+    <div id="deplomes">
+            <div class="deplome-section">
+                <h2>Master</h2>
+                <h3>Genie logiciels</h3>
+                <h4>Universite ibn khaldoun tiaret</h4>
+                <span>02/07/2025</span>
+            </div>
+            <div class="deplome-section">
+                <h2>Licence</h2>
+                <h3>Ingenierie des systemes d information et des logiciels</h3>
+                <h4>Universite ibn khaldoun tiaret</h4>
+                <span>06/07/2023</span>
+            </div>
+            <div class="deplome-section">
+                <h2>Niveau A2</h2>
+                <h3>Anglais</h3>
+                <h4>Centre d Enseignement Intensif des Langues - Tiaret</h4>
+                <span>12/06/2025</span>
+            </div>
+            <div class="deplome-section">
+                <h2>Niveau A1</h2>
+                <h3>Anglais</h3>
+                <h4>Centre d Enseignement Intensif des Langues - Tiaret</h4>
+                <span>28/02/2024</span>
+            </div>
+            <div class="deplome-section">
+                <h2>Baccalaureat</h2>
+                <h3>Sciences et technologies</h3>
+                <h4>Lycee mohamed dib tairet</h4>
+                <span>16/07/2019</span>
+            </div>
+            <div class="deplome-section">
+                <h2>Permis de conduire</h2>
+                <h3>Categorie B</h3>
+                <h4>Tiaret</h4>
+                <span>28/05/2025</span>
+            </div>
+            <div class="deplome-section">
+                    <h2>Formation Stratup</h2>
+                    <img src="photos/startup.jpg" alt="startup" class="image">
+                    <h4>Techno Foster Incubator - Universtite tiaret</h4>
+                    <span>2025</span>
+            </div>
+        </div>
+        
+        <div id="projets">
+                <div class="projetsbar">
+                    <button id="btn-web" class="btn" onclick="web()">Sites web</button>
+                    <button id="btn-desktop" class="btn" onclick="desktop()">Application desktop</button>
+                    <button id="btn-mobile" class="btn" onclick="mobile()" disabled style="color: grey;">Application mobile</button>
+                    <button id="btn-experience" class="btn" onclick="experience()">experiences</button>
+                </div>
+        <div>    
+            <div id="web" class="container">
+                <div class="projet">
+                <img src="photos/ecommerce.jpg" alt="ecommerce" class="image">
+                <h3>Site web e-commerce</h3>
+                <p> Ce projet est un site web de vente en ligne permettant aux utilisateurs de <strong>consulter des produits</strong>,
+                    voir leurs details et effectuer des <strong>achats facilement </strong>.
+                    Le site comprend un systeme de gestion des produits, des categories,    
+                    un panier d achat et une <strong> interface simple </strong> et intuitive pour l utilisateur.</p>
+                    <p><strong style="color: darkblue;">Prix de vente : </strong> 25000 DA</p>
+                </div>
+            </div>
+            <div id="desktop" class="container">
+                <div class="projet">
+                <img src="photos/perfume.jpg" class="image">
+                <h2>Logiciel de gestion de stock</h2>
+                <p>Ce projet est un logiciel de gestion de stock permettant de <strong style="color: green;">suivre et organiser les produits</strong> d une entreprise.
+                Il permet <strong>d ajouter, modifier et supprimer des produits,
+                de gerer les quantites disponibles et de suivre les entrees et sorties de stock.</strong>
+                L objectif de ce logiciel est de <strong>faciliter la gestion des stocks</strong>,
+                reduire les erreurs et ameliorer l organisation des donnees.</p> 
+                <p><strong style="color: darkblue;">Prix de vente : </strong> 18000 DA</p>
+                </div>  
+            </div>
+            <div id="experiences" class="container">
+                <div class="projet">
+                    <img src="photos/naftal.png" alt="Stage" class="image">
+                    <h2>Attestation Stage en entreprise - NAFTAL</h2>
+                    <p>Realisation d un stage en entreprise au sein de <strong style="color: orange;">NAFTAL</strong>,
+                     axe principalement sur la <strong style="color: green;">maintenance informatique et l administration des reseaux</strong>.
+                    Les missions principales comprenaient la maintenance du materiel informatique,
+                    le diagnostic et la resolution des pannes, ainsi que la participation a la gestion et au bon fonctionnement du reseau interne.
+                    Ce stage m a permis de renforcer mes competences techniques,
+                    de comprendre le fonctionnement d un environnement professionnel et de developper mon sens de l organisation et du travail en equipe.</p>
+                    <span>De 23/02/2025 a 06/03/2025</span>    
+                </div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
