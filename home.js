@@ -1,7 +1,6 @@
 function affichesection(idActive,idbtn){
     const sections = ['profile','competances','deplomes','projets']; 
-    const buttons = ['btn-profile','btn-projets','btn-competances','btn-deplomes'];
-    
+    const buttons = ['btn-profile','btn-projets','btn-competances','btn-deplomes'];    
     sections.forEach(idSection=>{
         if(idSection === 'competances'){
             document.getElementById(idSection).style.display = (idSection === idActive)? 'flex' : 'none';
@@ -22,7 +21,6 @@ function afficheSkills(id){
     skills.forEach(idSkills=>{
         document.getElementById(idSkills).style.display = (idSkills === id)? 'block' : 'none';
     });
-
 }
 function afficheProjet(idSection,idbtn){
     const deplomes = ['web','desktop','experiences'];
