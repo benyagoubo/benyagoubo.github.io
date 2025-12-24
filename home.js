@@ -1,3 +1,15 @@
+function affichesection(idActive,idbtn){
+    const sections = ['profile','competences','deplomes','projets']; 
+    const buttons = ['btn-profile','btn-projets','btn-competances','btn-deplomes'];
+    
+    sections.forEach(idSection=>{
+    document.getElementById(idSection).style.display = (idSection === idActive)? 'block' : 'none';
+    });
+    buttons.forEach(idbutton=>{
+        document.getElementById(idbutton).style.background = (idbutton === idbtn)? '#F9FAFB' : '#3B82F6';    
+    });
+}
+/*
 function profile(){
     document.getElementById('profile').style.display = "block";
     document.getElementById('projets').style.display = "none";
@@ -38,6 +50,10 @@ function deplomes(){
         document.getElementById('btn-competances').style.background = "#F9FAFB";
         document.getElementById('btn-deplomes').style.background = "#3B82F6";
 }
+*/
+
+
+
 function hardskills(){
     document.getElementById('hard-skills').style.display = "block";
     document.getElementById('soft-skills').style.display = "none";
