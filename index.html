@@ -35,13 +35,13 @@
         </div>
         </div>
 
-  <div id="competences" class="skills-section">
+  <div id="competances" class="skills-section">
     <div class="all-btn-competances">
-        <button onclick="hardskills()">Competences techniques<img src="photos/hardskills.png" alt="skills"></button>
-        <button onclick="softskills()">Competences comportementales<img src="photos/softskills.png" alt="soft"></button>
-        <button onclick="frontendskills()">Langage de developpement front-end<img src="photos/frontendskills.png" alt="front"></button>    
-        <button onclick="backendskills()">Langage de developpement back-end<img src="photos/backendskills.png" alt="back"></button>
-        <button onclick="toolsskills()">Outils de l informatique<img src="photos/toolsskills.png" alt="tools"></button>
+        <button onclick="afficheSkills('hard-skills')">Competences techniques<img src="photos/hardskills.png" alt="skills"></button>
+        <button onclick="afficheSkills('soft-skills')">Competences comportementales<img src="photos/softskills.png" alt="soft"></button>
+        <button onclick="afficheSkills('frontend-skills')">Langage de developpement front-end<img src="photos/frontendskills.png" alt="front"></button>    
+        <button onclick="afficheSkills('backend-skills')">Langage de developpement back-end<img src="photos/backendskills.png" alt="back"></button>
+        <button onclick="afficheSkills('tools-skills')">Outils de l informatique<img src="photos/toolsskills.png" alt="tools"></button>
     </div>
     <div id="hard-skills" class="skills-category">
         <ul>
@@ -139,13 +139,12 @@
                     <span>2025</span>
             </div>
         </div>
-        
         <div id="projets">
                 <div class="projetsbar">
-                    <button id="btn-web" class="btn" onclick="web()">Sites web</button>
-                    <button id="btn-desktop" class="btn" onclick="desktop()">Application desktop</button>
-                    <button id="btn-mobile" class="btn" onclick="mobile()" disabled style="color: grey;">Application mobile</button>
-                    <button id="btn-experience" class="btn" onclick="experience()">experiences</button>
+                    <button id="btn-web" class="btn" onclick="afficheProjet('web','btn-web')">Sites web</button>
+                    <button id="btn-desktop" class="btn" onclick="afficheProjet('desktop','btn-desktop')">Application desktop</button>
+                    <button id="btn-mobile" class="btn" onclick="afficheProjet('mobile','btn-mobile')" disabled style="color: grey;">Application mobile</button>
+                    <button id="btn-experience" class="btn" onclick="afficheProjet('experiences','btn-experience')">experiences</button>
                 </div>
         <div>    
             <div id="web" class="container">

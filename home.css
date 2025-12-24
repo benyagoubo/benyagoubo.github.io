@@ -30,6 +30,7 @@ body{
 }
 #btn-profile{
     background-color: #3B82F6;
+    color: white;
 }
 #profile{
     display: block;
@@ -212,4 +213,5 @@ font-weight: 600;
 }
 #btn-web{
     background-color: #2563EB;
+    color: #ffffff;
 }
